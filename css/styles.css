@@ -1,0 +1,150 @@
+body{
+  font-family: "Montserrat";
+  font-weight: 700;
+}
+h1{
+  font-family:"Montserrat";
+  font-size: 3.5rem !important;
+  line-height: 1.5;
+  font-weight: lighter !important;
+  color: rgba(255,255,255,.9);
+}
+h2{
+  font-family: "Montserrat";
+  font-size: 3rem;
+  line-height: 1.5;
+}
+h3{
+  font-weight: 900;
+}
+#title{
+  background-color: #ff4c68;
+  color: white;
+}
+.container-fluid{
+  padding: 3% 15% 7%;
+}
+#logo{
+  font-family: "Ubuntu";
+  font-size: 2.5rem !important;
+  font-weight: bold;
+  color: #204051;
+
+}
+.navbar{
+  padding: 0 0 4.5rem;
+}
+.nav-item{
+  padding: 0 15px;
+}
+.nav-link{
+  font-size: 1.3rem;
+  font-weight: lighter;
+}
+.bro{
+  margin-top: 30px;
+}
+.top-img{
+  width: 60%;
+  transform: rotate(25deg);
+  position: absolute;
+  right: 25%;
+}
+#features{
+  padding: 7% 15%;
+  position: relative;
+  background-color: #fff;
+
+}
+.feature-box{
+  text-align: center;
+  padding: 5%;
+}
+p{
+  color: #8f8f8f;
+}
+.second-part{
+  padding-bottom: 45px;
+  color: #ef8172;
+}
+.second-part:hover{
+  color: #ff4c68;
+}
+/* testimonial styles */
+#testimonials{
+  text-align: center;
+  background-color: #ef8172;
+  color: rgba(255, 255, 255, 0.9);
+}
+.testimonial-image{
+  width: 10%;
+  border-radius: 100%;
+  margin:20px;
+}
+#press{
+  background-color: #ef8172;
+  text-align: center;
+  padding-bottom: 3%;
+}
+.press-images{
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+.carousel-item{
+    padding:7% 15%;
+}
+#pricing{
+  padding: 100px;
+}
+.pricing-table{
+  padding:3% 2%;
+    text-align: center;
+
+}
+@media (max-width: 1000px)  {
+  #title{
+    text-align: center;
+  }
+  .top-img{
+    position: static;
+    transform: rotate(0);
+  }
+
+}
+#cta{
+  background-color: #ff4c68;
+  color: rgba(255, 255, 255, 0.9);
+  padding:7% 15%;
+  text-align: center;
+}
+#cta-heading{
+font-family: "Montserrat";
+font-weight: lighter !important;
+font-size: 3.5rem;
+line-height: 1.5;
+margin-bottom: 40px;
+}
+#footer{
+  padding: 7% 15% 2%;
+  text-align: center;
+}
+.social-icons{
+  margin: 20px 10px;
+  font-size: 1.5rem;
+
+}
+#fc-icon:hover{
+  color: #3b5998;
+}
+#insta-icon:hover{
+ color:#e1306c;
+}
+#twitter-icon:hover{
+  color: #00acee;
+}
+#gmail-icon:hover{
+  color: #d44638;
+}
+.bro{
+  margin: 5% 3% 5% 0%;
+}
